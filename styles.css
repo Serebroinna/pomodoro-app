@@ -261,13 +261,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Para Celulares */
-@media (max-width: 767px) {
+@media (max-width: 767px){
     .app__section-banner-container {
         width: 32rem;
     }
 
     .app__bienvenida {
-        max-width: 46rem;
+        max-width: 32rem;
     }
 
     .app__title {
@@ -275,10 +275,14 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .app__card-timer {
-        font-size: 6rem;
+        font-size: 3rem;
     }
 
     .app__card {
-        max-width: none;
+        max-width: 95%;
+    }
+
+    .app__card-button {
+        font-size: 1.3rem;
     }
 }
