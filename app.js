@@ -85,7 +85,6 @@ btnStarPause.addEventListener('click', iniciarPausar);
 const cuentaRegresiva = () => {
     if(tiempoEnSegundos <= 0){
         beep.play();
-        alert('Se acabo el tiempo.');
         reiniciar();
         return
     }
